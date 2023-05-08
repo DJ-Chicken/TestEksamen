@@ -1,1 +1,10 @@
-<p>projects works!</p>
+<div class="min-w-full my-12">
+  <p class="text-4xl font-bold text-center max-w-full">Projects</p>
+  <div class="flex mx-auto w-full max-w-7xl justify-between text-center my-6">
+    <div *ngFor="let project of projects | slice : 0 : 4" class="rounded">
+      <img src="{{ project.img }}" alt="" class="w-full flex rounded px-2" />
+      <p class="text-lg font-semibold">{{ project.title }}</p>
+      <p class="text-gray-500">{{ project.description }}</p>
+    </div>
+  </div>
+</div>
