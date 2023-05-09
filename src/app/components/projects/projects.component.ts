@@ -8,22 +8,22 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
-      title: 'Project 1',
+      title: 'Prosjekt 1',
       img: '../../assets/images/Project.jpg',
       description: 'Lorem ipsum dolor sit amet',
     },
     {
-      title: 'Project 2',
+      title: 'Prosjekt 2',
       img: '../../assets/images/Project.jpg',
       description: 'Lorem ipsum dolor sit amet',
     },
     {
-      title: 'Project 3',
+      title: 'Prosjekt 3',
       img: '../../assets/images/Project.jpg',
       description: 'Lorem ipsum dolor sit amet',
     },
     {
-      title: 'Project 4',
+      title: 'Prosjekt 4',
       img: '../../assets/images/Project.jpg',
       description: 'Lorem ipsum dolor sit amet',
     },
