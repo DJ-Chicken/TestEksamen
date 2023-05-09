@@ -10,17 +10,22 @@ export class ProjectsComponent {
     {
       title: 'Project 1',
       img: '../../assets/images/Project.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Lorem ipsum dolor sit amet',
     },
     {
       title: 'Project 2',
       img: '../../assets/images/Project.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Lorem ipsum dolor sit amet',
     },
     {
       title: 'Project 3',
       img: '../../assets/images/Project.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Lorem ipsum dolor sit amet',
+    },
+    {
+      title: 'Project 4',
+      img: '../../assets/images/Project.jpg',
+      description: 'Lorem ipsum dolor sit amet',
     },
   ];
 }
