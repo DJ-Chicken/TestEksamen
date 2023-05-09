@@ -18,7 +18,7 @@ export class LandingComponent implements OnInit {
     const cookieExists = this.cookieService.check('cookiePolicy');
     if (!cookieExists) {
       this.openDialog();
-      this.cookieService.set('cookiePolicy', 'accepted', 30); // set cookie to expire in 30 days
+      this.cookieService.set('cookiePolicy', 'accepted', 3); // set cookie to expire in 3 days
     }
   }
 
